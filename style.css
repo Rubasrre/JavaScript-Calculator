@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgba(167,125,101,1), rgba(242,164,118,1));
+    min-height: 100vh;
+    display: flex;
+}
+
+.calculator{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background-color: #402722;
+    width: 18rem;
+    height: 30rem;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px 5px rgba(167,125,101,1), inset -2px -1px 5px rgba(64,39,34,0.25);
+}
+
+.display{
+    display: block;
+    padding: 0.5rem 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.display .result{
+    width: 17rem;
+    height: 7rem;
+    border-radius: 25px;
+    background-color: #402722;
+    box-shadow: inset 0px 4px 4px #F1D9CF;
+    text-align: right;
+    color: #fff;
+    font-size: 2rem;
+}
+
+input::placeholder{
+    text-align: right;
+    color: gray;
+    font-size: 2rem;
+    top: 1rem;
+}
+
+.input-button{
+    height: 200px;
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    margin: 7px;
+    border-radius: 50%;
+    margin-left: 12px;
+    font-size: 20px;
+    font-style: normal;
+    color: #000;
+    border: none;
+    box-shadow: -1px -2px 5px rgba(247, 164, 118, 0.2), 1px 2px 5px rgba(247, 164, 118, 0.2), inset -2px -5px 4px rgba(0,0,0,0.25);
+}
+
+.zero{
+    width: 123px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+button:nth-child(1){
+    background-color: rgba(167,125,101,1);
+}
+
+button:nth-child(2){
+    background-color: rgba(167,125,101,1);
+}
+
+button:nth-child(3){
+    background-color: rgba(167,125,101,1);
+}
+
+button:nth-child(4){
+    background-color: rgba(242,164,118,1);
+}
+
+button:nth-child(5){
+    background-color: rgba(243,173,148,1);
+}
+
+button:nth-child(6){
+    background-color: rgba(243,173,148,1);
+}
+
+button:nth-child(7){
+    background-color: rgba(243,173,148,1);
+}
+
+button:nth-child(8){
+    background-color: rgba(242,164,118,1);
+}
+
+button:nth-child(9){
+    background-color: rgba(243,173,148,1);
+}
+
+button:nth-child(10){
+    background-color: rgba(243,173,148,1);
+}
+
+button:nth-child(11){
+    background-color: rgba(243,173,148,1);
+}
+
+button:nth-child(12){
+    background-color: rgba(242,164,118,1);
+}
+
+button:nth-child(13){
+    background-color: rgba(243,173,148,1);
+}
+
+button:nth-child(14){
+    background-color: rgba(243,173,148,1);
+}
+
+button:nth-child(15){
+    background-color: rgba(243,173,148,1);
+}
+
+button:nth-child(16){
+    background-color: rgba(242,164,118,1);
+}
+
+button:nth-child(17){
+    background-color: rgba(243,173,148,1);
+}
+
+button:nth-child(18){
+    background-color: rgba(243,173,148,1);
+}
+
+button:nth-child(19){
+    background-color: rgba(242,164,118,1);
+}
+
+button:hover{
+    border: 2px solid #F1D9CF;
+    color: #402722;
+    transition: ease-in-out 0.5s;
+    box-shadow: -1px -2px -5px rgba(242,164,118,0.2);
+}
